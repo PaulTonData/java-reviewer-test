@@ -4,7 +4,7 @@ public class GuessingGame {
     public static void runGuessingRound(Scanner scanner, int computerNumber) {
         System.out.println("Enter a guess between 1 and 100");
         int userAnswer = scanner.nextInt();
-        
+
         if (userAnswer <=0 || userAnswer >100) {
             System.out.println("Invalid response");
         }
